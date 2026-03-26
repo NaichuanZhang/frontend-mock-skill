@@ -30,20 +30,20 @@ A Claude Code skill that creates complete, high-fidelity frontend mocks with rea
 
 ## Installation
 
+### Global Install (Recommended)
+
+```bash
+git clone https://github.com/NaichuanZhang/frontend-mock-skill.git ~/.claude/skills/frontend-mock-skill
+```
+
 ### Manual Installation
 
 ```bash
 mkdir -p ~/.claude/skills/frontend-mock-skill/references
-cp frontend-mock-skill/SKILL.md ~/.claude/skills/frontend-mock-skill/
-cp frontend-mock-skill/references/mock-markers.md ~/.claude/skills/frontend-mock-skill/references/
-```
-
-### Direct Clone
-
-```bash
-git clone https://github.com/YOUR_USERNAME/frontend-mock-skill.git /tmp/frontend-mock-skill
-mkdir -p ~/.claude/skills/frontend-mock-skill
-cp -r /tmp/frontend-mock-skill/frontend-mock-skill/* ~/.claude/skills/frontend-mock-skill/
+curl -sL https://raw.githubusercontent.com/NaichuanZhang/frontend-mock-skill/main/frontend-mock-skill/SKILL.md \
+  -o ~/.claude/skills/frontend-mock-skill/SKILL.md
+curl -sL https://raw.githubusercontent.com/NaichuanZhang/frontend-mock-skill/main/frontend-mock-skill/references/mock-markers.md \
+  -o ~/.claude/skills/frontend-mock-skill/references/mock-markers.md
 ```
 
 After installation, invoke via: `/frontend-mock-skill`
