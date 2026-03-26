@@ -40,9 +40,9 @@ git clone https://github.com/NaichuanZhang/frontend-mock-skill.git ~/.claude/ski
 
 ```bash
 mkdir -p ~/.claude/skills/frontend-mock-skill/references
-curl -sL https://raw.githubusercontent.com/NaichuanZhang/frontend-mock-skill/main/frontend-mock-skill/SKILL.md \
+curl -sL https://raw.githubusercontent.com/NaichuanZhang/frontend-mock-skill/main/SKILL.md \
   -o ~/.claude/skills/frontend-mock-skill/SKILL.md
-curl -sL https://raw.githubusercontent.com/NaichuanZhang/frontend-mock-skill/main/frontend-mock-skill/references/mock-markers.md \
+curl -sL https://raw.githubusercontent.com/NaichuanZhang/frontend-mock-skill/main/references/mock-markers.md \
   -o ~/.claude/skills/frontend-mock-skill/references/mock-markers.md
 ```
 
